@@ -1,5 +1,5 @@
 # Smart-Issue-Tracker
-The Smart Issue Tracker is a full-stack application that allows users to create, manage, and track technical issues in a streamlined way. Each ticket includes real-time discussion via WebSockets, file upload support, and a clean React interface connected to a Spring Boot.
+Developed a full-stack Smart Issue Tracker application featuring ticket creation, real-time discussion, and file upload capabilities. Implemented a React-based frontend integrated with a Spring Boot backend using REST APIs. Added WebSocket (STOMP + SockJS) support for live ticket discussion, enabling instant team collaboration. Designed secure file upload handling for attaching logs and screenshots to tickets. Followed modular architecture with separate frontend and backend, improving scalability and maintainability.
 
 <img width="1488" height="733" alt="Screenshot 2026-02-11 111031" src="https://github.com/user-attachments/assets/6d873326-3b10-4a07-848f-51694e378b16" />
 <img width="1039" height="740" alt="Screenshot 2026-02-11 111048" src="https://github.com/user-attachments/assets/fff8a240-0e4d-48d8-a82f-24b4625e353a" />
