@@ -1,0 +1,67 @@
+/* Center container */
+.reg-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f2f5;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card */
+.reg-card {
+  width: 330px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Title */
+.reg-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Inputs */
+.reg-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Button */
+.reg-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #4b79a1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reg-btn:hover {
+  background: #35516a;
+}
+
+/* Login link text */
+.login-text {
+  margin-top: 15px;
+  color: #444;
+}
+
+.login-link {
+  color: #0072ff;
+  font-weight: bold;
+}

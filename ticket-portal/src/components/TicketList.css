@@ -1,0 +1,142 @@
+.ticket-container {
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Create Button */
+.add-btn {
+  padding: 10px 18px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #0056b3;
+}
+
+/* Grid Layout */
+.ticket-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Card */
+.ticket-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: transform 0.25s;
+}
+
+.ticket-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Title + Tags */
+.ticket-top {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ticket-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+.ticket-desc {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Tag styles */
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: white;
+  margin-right: 6px;
+}
+
+/* Priority Colors */
+.priority-high {
+  background: #e74c3c;
+}
+
+.priority-medium {
+  background: #f1c40f;
+}
+
+.priority-low {
+  background: #2ecc71;
+}
+
+/* Status Colors */
+.status-open {
+  background: #3498db;
+}
+
+.status-in-progress {
+  background: #e67e22;
+}
+
+.status-closed {
+  background: #7f8c8d;
+}
+
+/* Buttons */
+.ticket-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-btn {
+  padding: 8px 14px;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.update-btn:hover {
+  background: #1e8449;
+}
+
+.delete-btn {
+  padding: 8px 14px;
+  background: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #922b21;
+}

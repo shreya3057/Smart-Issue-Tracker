@@ -1,0 +1,89 @@
+/* Container */
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  font-family: "Poppins", sans-serif;
+  position: relative; /* required for absolute positioning */
+
+  
+}
+/* Logout button top-right */
+.logout-btn-top {
+  position: absolute;
+  top: 20px;
+  right: 20px; /* change from left → right */
+  padding: 10px 15px;
+  background: #ff4d4d;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+.logout-btn-top:hover {
+  background: #e63939;
+}
+
+/* Card */
+.home-card {
+  width: 300px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  animation: fadeIn 0.8s ease;
+
+  /* compact and content-fit */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Image inside card */
+.home-image {
+  width: 100%;
+  height: 120px; /* smaller image */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Buttons */
+.btn-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.home-btn {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: #6e8efb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background: #5a7bfa;
+}
+
+.create-btn {
+  background: #a777e3;
+}
+
+.create-btn:hover {
+  background: #945fe0;
+}

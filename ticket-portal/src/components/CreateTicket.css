@@ -1,0 +1,35 @@
+/* Full screen gradient background */
+.create-wrapper {
+  height: 100vh;
+  background: linear-gradient(135deg, #fb246f9f, #ACB6E5);
+  padding: 20px;
+}
+
+
+/* Card Styling */
+.create-card {
+  width: 420px;
+  border-radius: 18px;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+}
+
+/* Inputs */
+.input-field {
+  border-radius: 10px !important;
+  padding: 12px !important;
+  border: 1px solid #d0d0d0 !important;
+  transition: 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff !important;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Button */
+.btn-primary {
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+}

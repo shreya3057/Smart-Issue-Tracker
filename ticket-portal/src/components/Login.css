@@ -1,0 +1,79 @@
+/* Full screen background */
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Glass card */
+.login-card {
+  width: 350px;
+  padding: 30px;
+  background: #16dc6f55;
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  animation: fadeIn 0.8s ease;
+}
+
+/* Title */
+.login-title {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Inputs */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #00c6ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #00ff77;
+}
+
+/* Register text */
+.register-text {
+  margin-top: 15px;
+  color: white;
+}
+
+.reg-link {
+  color: #ffdf6c;
+  font-weight: bold;
+}
+
+/* Fade effect */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
